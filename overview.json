@@ -1,0 +1,963 @@
+{
+  "rootFolder": "c:\\code\\demo-android-app",
+  "analyzedAt": "2025-09-22T04:38:14.738Z",
+  "rootStructure": [
+    {
+      "name": ".gitignore",
+      "type": "file",
+      "size": 1085,
+      "lines": 76
+    },
+    {
+      "name": "android",
+      "type": "dir"
+    },
+    {
+      "name": "app-push-poc-4913d-900f64745604.json",
+      "type": "file",
+      "size": 2394,
+      "lines": 14
+    },
+    {
+      "name": "app.json",
+      "type": "file",
+      "size": 76,
+      "lines": 5
+    },
+    {
+      "name": "App.tsx",
+      "type": "file",
+      "size": 22293,
+      "lines": 728
+    },
+    {
+      "name": "babel.config.js",
+      "type": "file",
+      "size": 72,
+      "lines": 4
+    },
+    {
+      "name": "backend-package.json",
+      "type": "file",
+      "size": 686,
+      "lines": 27
+    },
+    {
+      "name": "backend-simulator.js",
+      "type": "file",
+      "size": 2814,
+      "lines": 80
+    },
+    {
+      "name": "BACKGROUND-NOTIFICATION-TEST.md",
+      "type": "file",
+      "size": 2790,
+      "lines": 94
+    },
+    {
+      "name": "BACKGROUND-NOTIFICATION-TESTING.md",
+      "type": "file",
+      "size": 4394,
+      "lines": 114
+    },
+    {
+      "name": "background.js",
+      "type": "file",
+      "size": 1809,
+      "lines": 46
+    },
+    {
+      "name": "CRITICAL-FIX-GOOGLE-ACCOUNT.md",
+      "type": "file",
+      "size": 2872,
+      "lines": 79
+    },
+    {
+      "name": "EMULATOR-BACKGROUND-NOTIFICATION-ISSUES.md",
+      "type": "file",
+      "size": 4817,
+      "lines": 139
+    },
+    {
+      "name": "FIREBASE-CONFIG-FIX.md",
+      "type": "file",
+      "size": 1479,
+      "lines": 44
+    },
+    {
+      "name": "Gemfile",
+      "type": "file",
+      "size": 510,
+      "lines": 17
+    },
+    {
+      "name": "index.js",
+      "type": "file",
+      "size": 239,
+      "lines": 11
+    },
+    {
+      "name": "ios",
+      "type": "dir"
+    },
+    {
+      "name": "jest.config.js",
+      "type": "file",
+      "size": 48,
+      "lines": 4
+    },
+    {
+      "name": "metro.config.js",
+      "type": "file",
+      "size": 301,
+      "lines": 12
+    },
+    {
+      "name": "node_modules",
+      "type": "dir"
+    },
+    {
+      "name": "NOTIFICATION-PERMISSION-SYNC-FIX.md",
+      "type": "file",
+      "size": 3844,
+      "lines": 109
+    },
+    {
+      "name": "notification-service-example.js",
+      "type": "file",
+      "size": 6553,
+      "lines": 229
+    },
+    {
+      "name": "notification-service-pinpoint.js",
+      "type": "file",
+      "size": 6742,
+      "lines": 236
+    },
+    {
+      "name": "notification-service-production.js",
+      "type": "file",
+      "size": 8706,
+      "lines": 277
+    },
+    {
+      "name": "overview.json",
+      "type": "file",
+      "size": 14309,
+      "lines": 564
+    },
+    {
+      "name": "package-lock.json",
+      "type": "file",
+      "size": 533743,
+      "lines": 14240
+    },
+    {
+      "name": "package.json",
+      "type": "file",
+      "size": 1335,
+      "lines": 46
+    },
+    {
+      "name": "PushNotificationApp",
+      "type": "dir"
+    },
+    {
+      "name": "README.md",
+      "type": "file",
+      "size": 3582,
+      "lines": 98
+    },
+    {
+      "name": "SETUP-GUIDE.md",
+      "type": "file",
+      "size": 6651,
+      "lines": 210
+    },
+    {
+      "name": "tsconfig.json",
+      "type": "file",
+      "size": 134,
+      "lines": 6
+    },
+    {
+      "name": "__tests__",
+      "type": "dir"
+    }
+  ],
+  "rootFileSnippets": {
+    "app-push-poc-4913d-900f64745604.json": [
+      "{",
+      "\"type\": \"service_account\",",
+      "\"project_id\": \"app-push-poc-4913d\",",
+      "\"private_key_id\": \"900f64745604c6019c2205cbe7df0d829274662f\",",
+      "\"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDCBcj7cHkaidbm\\nLAf2jvUO2u2+DiHay2qnvScBwXdcJvqcxK1ukjFoG+uQ2kA62bJgLpw3snIipU4Q\\nOvW3yMjBLQo+m7p2nIEgT5tm1r5BO9eOoCoCNOB6048/YkNlda/0JftDjV1EGpAO\\nz/FTo6pWE4YM2K6t5pT7327F+IjV41zyoCvES5mSUVkHY/lkUH7BYBOOyjgm1Rj6\\nHEq2ayVxs0KG2EpogJ0hNXIepu/95tPYJ+T+U1Fsw9yXQoO8HclS8AptIN6oMFqQ\\nHrWNQOAHGgHaKO43I1pKuOZ1qTx1+HaNlKOFm7UBIqkTKdbpSQ7P+Q3tjeJBXbkw\\nJB1MMRSZAgMBAAECggEAKdcPCB/xUbaDW/gHUJV0BbvS9H7+MH1Y1urcsE189Keo\\nOCnWn6dRlbqdoktaegZrp7+tavplkBCXRLs+NV+MYVIZ6TXycDUgSGw6XiM1fIJP\\n4f8qh/bIqNwaAkhpscW/B7awGFlyESdsRPF1QHzlFPJZYEhS5Qf6PVWpwPHvajYg\\nt9BC3FCBEf8tzsuKAVvgzNtoToOx0GY/nY4tvnSBXft3QNITrVCe5lzPIwWUQ7up\\nQRUnXxf8Miq0EnQU7cvRtfzE6WX064iWmDvnsncTwsTqETFTrVDopCcWIYUpkdr9\\nrKnD39emr8f5kzWaOBJdi/hnY4hKQDlPCkE7Ocx2zQKBgQD3Nj+s07SBDzjqWOl9\\n3HF6Zg/ocRW2RkoptUv37xoXUUTiUwwen6/jhsect9DoC2E1lnuCOUQGk5pCqsHw\\neKwBuTYx+MbqJIqKz4DPnXBb0T1902s/iSxzhVN9Z0MUXxsiRwaBnBllbVPUOpTt\\nNJQRTTX+wKK79sgcNl2IMN1kRQKBgQDI63y4AabHrbViXnsewefmJuWL9Y0Ml5L0\\nTttuS7h4kaxvOQD8oZkGdgegKKbGjgpoRJwIxnBh6Lzgga1L1ClRt+d3pDTQ1Z9M\\nGCcJIUiFlv+zVWFMi2tqbBTGht/KSS8c+I2Wn3jowA2JFemOYsDe8kuEzwM3x7XD\\n5HI2aAy2RQKBgF5MdDeRve3pB5Xk+pQHDcZZvkG1OUoBP/Lu9B6MN1CjsHoAocPg\\nt/A7jlMKjwakqJ0PXOeMvpUfop1Bk58N+NbjdnfTZNUVwT837fPEI4LyqtkfV26x\\n/aHHPtS8GgtgR/JoU2QHTmyxKmPvQLXG86Ax6qHVi33VofmZB06XDSxdAoGAaWEB\\nX+0V0WLtYHOXdbFT9KVv/bFDUlhpbhOyCS5TyYD2BLvMJbSH8xiStVC88CTtlnRt\\ntjiGFwQflEzPXJchOMgQ8fJA9Uslqp58UtCPHentoNxmFOSG6SFY4Cs7UviBalt+\\nv4JSwxh/wOeqQNDQwd4o97YvxODNF7pIoPp/uFUCgYEA3c5gLRUfMJ+Sk0xtwEkj\\nEQCEzLILUEH/Wxw7R7jQ17dNfa+8fUbeE+4FIJPUTUwvaA9lLGdzjzJa/LATM1Pr\\nNE+0IW66bDNPYS+fMwTN/69PUzjDeR8idL3VoWbUnssXIBkU/z2sn9oljvssW6HH\\nT8sJgLkJeOe2+W/QjPIIYnE=\\n-----END PRIVATE KEY-----\\n\",",
+      "\"client_email\": \"firebase-adminsdk-fbsvc@app-push-poc-4913d.iam.gserviceaccount.com\",",
+      "\"client_id\": \"116971941196166965039\",",
+      "\"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",",
+      "\"token_uri\": \"https://oauth2.googleapis.com/token\",",
+      "\"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\","
+    ],
+    "app.json": [
+      "{",
+      "\"name\": \"PushNotificationApp\",",
+      "\"displayName\": \"PushNotificationApp\"",
+      "}",
+      ""
+    ],
+    "App.tsx": [
+      "import React, {useEffect, useState} from 'react';",
+      "import {",
+      "Alert,",
+      "AppState,",
+      "Linking,",
+      "Platform,",
+      "ScrollView,",
+      "StatusBar,",
+      "StyleSheet,",
+      "Text,"
+    ],
+    "babel.config.js": [
+      "module.exports = {",
+      "presets: ['module:@react-native/babel-preset'],",
+      "};",
+      ""
+    ],
+    "backend-package.json": [
+      "{",
+      "\"name\": \"push-notification-service\",",
+      "\"version\": \"1.0.0\",",
+      "\"description\": \"Production notification service with Firebase Admin SDK\",",
+      "\"main\": \"notification-service-production.js\",",
+      "\"scripts\": {",
+      "\"start\": \"node notification-service-production.js\",",
+      "\"dev\": \"nodemon notification-service-production.js\",",
+      "\"test\": \"echo \\\"Error: no test specified\\\" && exit 1\"",
+      "},"
+    ],
+    "backend-simulator.js": [
+      "// Simple Node.js script to simulate your App Server sending notifications",
+      "// This demonstrates the \"Send Push Notification\" part of your architecture",
+      "",
+      "const sendNotificationToFirebase = async (fcmToken, title, body, data = {}) => {",
+      "// This would be your actual Firebase Admin SDK call",
+      "// For demo purposes, this is a template of what your App Server would do",
+      "",
+      "const notificationPayload = {",
+      "token: fcmToken,",
+      "notification: {"
+    ],
+    "BACKGROUND-NOTIFICATION-TEST.md": [
+      "# Testing Background Notifications Guide",
+      "",
+      "## 🔔 How to Test Background Notifications",
+      "",
+      "### Prerequisites ✅",
+      "- App is built and running",
+      "- Notifications are enabled in the app",
+      "- FCM token is visible in the app",
+      "- Production backend service is running",
+      ""
+    ],
+    "BACKGROUND-NOTIFICATION-TESTING.md": [
+      "# Background Notification Testing Guide",
+      "",
+      "## Changes Made to Fix Background Notifications",
+      "",
+      "### 1. Fixed Notification Channel ID Mismatch",
+      "- **Issue**: Service was using `default_channel` but Android manifest defined `default_notification_channel_id`",
+      "- **Fix**: Updated notification service to use `default_notification_channel_id`",
+      "",
+      "### 2. Enhanced Background Message Handler",
+      "- **Issue**: Background handler wasn't properly processing notifications"
+    ],
+    "background.js": [
+      "import messaging from '@react-native-firebase/messaging';",
+      "import { AppRegistry } from 'react-native';",
+      "",
+      "// Register background handler for when app is quit/backgrounded",
+      "messaging().setBackgroundMessageHandler(async remoteMessage => {",
+      "console.log('📩 Background message handled:', remoteMessage);",
+      "",
+      "try {",
+      "// Log the notification details for debugging",
+      "console.log('📊 Background notification data:', {"
+    ],
+    "CRITICAL-FIX-GOOGLE-ACCOUNT.md": [
+      "# CRITICAL FIX: Add Google Account to Emulator",
+      "",
+      "## 🚨 Primary Issue Identified",
+      "Your emulator shows \"Accounts: 0\" which means **no Google account is signed in**. This is the main reason background notifications aren't working!",
+      "",
+      "## Step-by-Step Fix",
+      "",
+      "### 1. Add Google Account to Emulator",
+      "1. **Open your Android emulator**",
+      "2. **Go to Settings** (gear icon in app drawer)"
+    ],
+    "EMULATOR-BACKGROUND-NOTIFICATION-ISSUES.md": [
+      "# Android Emulator Background Notification Issues - Analysis & Solutions",
+      "",
+      "## Key Findings from Research",
+      "",
+      "Based on Microsoft documentation and Firebase documentation, there are several specific issues that can prevent background notifications from working in Android emulators:",
+      "",
+      "### 1. **Google Services Availability**",
+      "**Issue**: Many Android emulator images don't include Google Play Services, which is required for FCM.",
+      "**Solution**: Ensure your emulator uses an image with Google APIs.",
+      ""
+    ],
+    "FIREBASE-CONFIG-FIX.md": [
+      "# Firebase Configuration Issue - SOLUTION",
+      "",
+      "## 🚨 Problem",
+      "The app shows: `Please set a valid API key. A Firebase API key is required to communicate with Firebase server APIs`",
+      "",
+      "## ✅ Solution: Download Real google-services.json",
+      "",
+      "You need to download the actual `google-services.json` file from your Firebase project:",
+      "",
+      "### Steps:"
+    ],
+    "Gemfile": [
+      "source 'https://rubygems.org'",
+      "",
+      "# You may use http://rbenv.org/ or https://rvm.io/ to install and use this version",
+      "ruby \">= 2.6.10\"",
+      "",
+      "# Exclude problematic versions of cocoapods and activesupport that causes build failures.",
+      "gem 'cocoapods', '>= 1.13', '!= 1.15.0', '!= 1.15.1'",
+      "gem 'activesupport', '>= 6.1.7.5', '!= 7.1.0'",
+      "gem 'xcodeproj', '< 1.26.0'",
+      "gem 'concurrent-ruby', '< 1.3.4'"
+    ],
+    "index.js": [
+      "/**",
+      "* @format",
+      "*/",
+      "",
+      "import { AppRegistry } from 'react-native';",
+      "import App from './App';",
+      "import { name as appName } from './app.json';",
+      "import './background'; // Import background handler",
+      "",
+      "AppRegistry.registerComponent(appName, () => App);"
+    ],
+    "jest.config.js": [
+      "module.exports = {",
+      "preset: 'react-native',",
+      "};",
+      ""
+    ],
+    "metro.config.js": [
+      "const { getDefaultConfig, mergeConfig } = require('@react-native/metro-config');",
+      "",
+      "/**",
+      "* Metro configuration",
+      "* https://reactnative.dev/docs/metro",
+      "*",
+      "* @type {import('@react-native/metro-config').MetroConfig}",
+      "*/",
+      "const config = {};",
+      ""
+    ],
+    "NOTIFICATION-PERMISSION-SYNC-FIX.md": [
+      "# Android Notification Permission - SEAMLESS UX SOLUTION! 🚀",
+      "",
+      "## 🎯 Problem Solved",
+      "The app was showing \"notification enabled\" in the UI, but Android system settings still showed notifications as \"off\". **Now we have a seamless one-tap solution!**",
+      "",
+      "## ✅ NEW: Seamless User Experience",
+      "",
+      "### 🎪 **One-Tap Enable Flow**",
+      "1. User clicks \"Enable Notifications\"",
+      "2. App requests permission via React Native Firebase"
+    ],
+    "notification-service-example.js": [
+      "// Example Node.js/Express server for your notification service registration endpoint",
+      "// This shows how to implement the registration endpoint that your React Native app will call",
+      "",
+      "const express = require('express');",
+      "const admin = require('firebase-admin');",
+      "const app = express();",
+      "const port = 3000;",
+      "",
+      "// Initialize Firebase Admin SDK with your service account key",
+      "const serviceAccount = require('./path-to-your-firebase-service-account-key.json');"
+    ],
+    "notification-service-pinpoint.js": [
+      "const express = require('express');",
+      "const AWS = require('aws-sdk');",
+      "const cors = require('cors');",
+      "",
+      "const app = express();",
+      "const port = 3000;",
+      "",
+      "// Middleware",
+      "app.use(cors());",
+      "app.use(express.json());"
+    ],
+    "notification-service-production.js": [
+      "const express = require('express');",
+      "const admin = require('firebase-admin');",
+      "",
+      "// Initialize Firebase Admin SDK with your service account",
+      "const serviceAccount = require('./app-push-poc-4913d-900f64745604.json');",
+      "",
+      "admin.initializeApp({",
+      "credential: admin.credential.cert(serviceAccount),",
+      "// No databaseURL needed for FCM",
+      "});"
+    ],
+    "overview.json": [
+      "{",
+      "\"rootFolder\": \"c:\\\\code\\\\demo-android-app\",",
+      "\"analyzedAt\": \"2025-09-19T06:04:21.166Z\",",
+      "\"rootStructure\": [",
+      "{",
+      "\"name\": \".gitignore\",",
+      "\"type\": \"file\",",
+      "\"size\": 1085,",
+      "\"lines\": 76",
+      "},"
+    ],
+    "package-lock.json": [
+      "{",
+      "\"name\": \"PushNotificationApp\",",
+      "\"version\": \"0.0.1\",",
+      "\"lockfileVersion\": 3,",
+      "\"requires\": true,",
+      "\"packages\": {",
+      "\"\": {",
+      "\"name\": \"PushNotificationApp\",",
+      "\"version\": \"0.0.1\",",
+      "\"dependencies\": {"
+    ],
+    "package.json": [
+      "{",
+      "\"name\": \"PushNotificationApp\",",
+      "\"version\": \"0.0.1\",",
+      "\"private\": true,",
+      "\"scripts\": {",
+      "\"android\": \"react-native run-android\",",
+      "\"ios\": \"react-native run-ios\",",
+      "\"lint\": \"eslint .\",",
+      "\"start\": \"react-native start\",",
+      "\"test\": \"jest\""
+    ],
+    "README.md": [
+      "This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).",
+      "",
+      "# Getting Started",
+      "",
+      "> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.",
+      "",
+      "## Step 1: Start Metro",
+      "",
+      "First, you will need to run **Metro**, the JavaScript build tool for React Native.",
+      ""
+    ],
+    "SETUP-GUIDE.md": [
+      "# Push Notification App Setup Guide",
+      "",
+      "## 🔧 Configuration Steps",
+      "",
+      "### 1. Update App Configuration",
+      "",
+      "Edit `App.tsx` and update the `NOTIFICATION_SERVICE_CONFIG`:",
+      "",
+      "```typescript",
+      "const NOTIFICATION_SERVICE_CONFIG = {"
+    ],
+    "tsconfig.json": [
+      "{",
+      "\"extends\": \"@react-native/typescript-config\",",
+      "\"include\": [\"**/*.ts\", \"**/*.tsx\"],",
+      "\"exclude\": [\"**/node_modules\", \"**/Pods\"]",
+      "}",
+      ""
+    ]
+  },
+  "importantFolders": [
+    {
+      "path": "android\\app",
+      "category": "frontend",
+      "fileCount": 240,
+      "primaryLanguage": "C++"
+    },
+    {
+      "path": "android\\app\\.cxx\\Debug\\4165z3uy\\arm64-v8a\\.cmake\\api",
+      "category": "backend",
+      "fileCount": 11
+    },
+    {
+      "path": "android\\app\\.cxx\\Debug\\4165z3uy\\arm64-v8a\\.cmake\\api\\v1\\query\\client-agp",
+      "category": "frontend",
+      "fileCount": 3
+    },
+    {
+      "path": "android\\app\\.cxx\\Debug\\4165z3uy\\arm64-v8a\\CMakeFiles\\appmodules.dir",
+      "category": "frontend",
+      "fileCount": 1
+    },
+    {
+      "path": "android\\app\\.cxx\\Debug\\4165z3uy\\arm64-v8a\\CMakeFiles\\appmodules.dir\\C_\\code\\demo-android-app",
+      "category": "frontend",
+      "fileCount": 0
+    },
+    {
+      "path": "android\\app\\.cxx\\Debug\\4165z3uy\\arm64-v8a\\CMakeFiles\\_CMakeLTOTest-CXX",
+      "category": "tests",
+      "fileCount": 3,
+      "primaryLanguage": "C++"
+    },
+    {
+      "path": "android\\app\\.cxx\\Debug\\4165z3uy\\arm64-v8a\\safeareacontext_autolinked_build",
+      "category": "frontend",
+      "fileCount": 9
+    },
+    {
+      "path": "android\\app\\.cxx\\Debug\\4165z3uy\\armeabi-v7a\\.cmake\\api",
+      "category": "backend",
+      "fileCount": 11
+    },
+    {
+      "path": "android\\app\\.cxx\\Debug\\4165z3uy\\armeabi-v7a\\.cmake\\api\\v1\\query\\client-agp",
+      "category": "frontend",
+      "fileCount": 3
+    },
+    {
+      "path": "android\\app\\.cxx\\Debug\\4165z3uy\\armeabi-v7a\\CMakeFiles\\appmodules.dir",
+      "category": "frontend",
+      "fileCount": 1
+    },
+    {
+      "path": "android\\app\\.cxx\\Debug\\4165z3uy\\armeabi-v7a\\CMakeFiles\\appmodules.dir\\C_\\code\\demo-android-app",
+      "category": "frontend",
+      "fileCount": 0
+    },
+    {
+      "path": "android\\app\\.cxx\\Debug\\4165z3uy\\armeabi-v7a\\CMakeFiles\\_CMakeLTOTest-CXX",
+      "category": "tests",
+      "fileCount": 3,
+      "primaryLanguage": "C++"
+    },
+    {
+      "path": "android\\app\\.cxx\\Debug\\4165z3uy\\armeabi-v7a\\safeareacontext_autolinked_build",
+      "category": "frontend",
+      "fileCount": 9
+    },
+    {
+      "path": "android\\app\\.cxx\\Debug\\4165z3uy\\armeabi-v7a\\safeareacontext_autolinked_build\\CMakeFiles\\react_codegen_safeareacontext.dir\\f16675a3b7b91245f171791057c8caa1\\components",
+      "category": "frontend",
+      "fileCount": 1
+    },
+    {
+      "path": "android\\app\\.cxx\\Debug\\4165z3uy\\prefab\\arm64-v8a\\prefab\\lib",
+      "category": "core",
+      "fileCount": 6
+    },
+    {
+      "path": "android\\app\\.cxx\\Debug\\4165z3uy\\prefab\\armeabi-v7a\\prefab\\lib",
+      "category": "core",
+      "fileCount": 6
+    },
+    {
+      "path": "android\\app\\.cxx\\Debug\\4165z3uy\\prefab\\x86\\prefab\\lib",
+      "category": "core",
+      "fileCount": 6
+    },
+    {
+      "path": "android\\app\\.cxx\\Debug\\4165z3uy\\prefab\\x86_64\\prefab\\lib",
+      "category": "core",
+      "fileCount": 6
+    },
+    {
+      "path": "android\\app\\.cxx\\Debug\\4165z3uy\\x86\\.cmake\\api",
+      "category": "backend",
+      "fileCount": 11
+    },
+    {
+      "path": "android\\app\\.cxx\\Debug\\4165z3uy\\x86\\.cmake\\api\\v1\\query\\client-agp",
+      "category": "frontend",
+      "fileCount": 3
+    },
+    {
+      "path": "android\\app\\.cxx\\Debug\\4165z3uy\\x86\\CMakeFiles\\appmodules.dir",
+      "category": "frontend",
+      "fileCount": 1
+    },
+    {
+      "path": "android\\app\\.cxx\\Debug\\4165z3uy\\x86\\CMakeFiles\\appmodules.dir\\C_\\code\\demo-android-app",
+      "category": "frontend",
+      "fileCount": 0
+    },
+    {
+      "path": "android\\app\\.cxx\\Debug\\4165z3uy\\x86\\CMakeFiles\\_CMakeLTOTest-CXX",
+      "category": "tests",
+      "fileCount": 3,
+      "primaryLanguage": "C++"
+    },
+    {
+      "path": "android\\app\\.cxx\\Debug\\4165z3uy\\x86\\safeareacontext_autolinked_build",
+      "category": "frontend",
+      "fileCount": 9
+    },
+    {
+      "path": "android\\app\\.cxx\\Debug\\4165z3uy\\x86_64\\.cmake\\api",
+      "category": "backend",
+      "fileCount": 11
+    },
+    {
+      "path": "android\\app\\.cxx\\Debug\\4165z3uy\\x86_64\\.cmake\\api\\v1\\query\\client-agp",
+      "category": "frontend",
+      "fileCount": 3
+    },
+    {
+      "path": "android\\app\\.cxx\\Debug\\4165z3uy\\x86_64\\CMakeFiles\\appmodules.dir",
+      "category": "frontend",
+      "fileCount": 1
+    },
+    {
+      "path": "android\\app\\.cxx\\Debug\\4165z3uy\\x86_64\\CMakeFiles\\appmodules.dir\\C_\\code\\demo-android-app",
+      "category": "frontend",
+      "fileCount": 0
+    },
+    {
+      "path": "android\\app\\.cxx\\Debug\\4165z3uy\\x86_64\\CMakeFiles\\_CMakeLTOTest-CXX",
+      "category": "tests",
+      "fileCount": 3,
+      "primaryLanguage": "C++"
+    },
+    {
+      "path": "android\\app\\.cxx\\Debug\\4165z3uy\\x86_64\\safeareacontext_autolinked_build",
+      "category": "frontend",
+      "fileCount": 9
+    },
+    {
+      "path": "android\\app\\.cxx\\tools",
+      "category": "scripts",
+      "fileCount": 4
+    },
+    {
+      "path": "android\\app\\src\\main\\java\\com\\demandroidapp",
+      "category": "frontend",
+      "fileCount": 0
+    },
+    {
+      "path": "android\\app\\src\\main\\java\\com\\pushnotificationapp",
+      "category": "frontend",
+      "fileCount": 2,
+      "primaryLanguage": "Kotlin"
+    },
+    {
+      "path": "android\\gradle\\wrapper",
+      "category": "frontend",
+      "fileCount": 2
+    },
+    {
+      "path": "ios\\PushNotificationApp",
+      "category": "frontend",
+      "fileCount": 6,
+      "primaryLanguage": "Swift"
+    },
+    {
+      "path": "ios\\PushNotificationApp\\Images.xcassets",
+      "category": "assets",
+      "fileCount": 2
+    },
+    {
+      "path": "ios\\PushNotificationApp\\Images.xcassets\\AppIcon.appiconset",
+      "category": "frontend",
+      "fileCount": 1
+    },
+    {
+      "path": "ios\\PushNotificationApp.xcodeproj",
+      "category": "frontend",
+      "fileCount": 2
+    },
+    {
+      "path": "PushNotificationApp",
+      "category": "frontend",
+      "fileCount": 0
+    },
+    {
+      "path": "__tests__",
+      "category": "tests",
+      "fileCount": 1,
+      "primaryLanguage": "TypeScript"
+    }
+  ],
+  "readmeParagraphs": {
+    "root": "This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli)."
+  },
+  "totals": {
+    "numFiles": 253,
+    "numDirs": 217,
+    "totalSizeBytes": 12638438,
+    "totalLinesOfCode": 8295
+  },
+  "fileCategories": {
+    "other": 107,
+    "source": 33,
+    "config": 75,
+    "documentation": 37,
+    "build": 1
+  },
+  "linesOfCodePerLanguage": {
+    "JavaScript": 910,
+    "C": 3216,
+    "C++": 3216,
+    "Kotlin": 62,
+    "Batch": 100,
+    "TypeScript": 742,
+    "Swift": 49
+  },
+  "filesPerLanguage": {
+    "JavaScript": 11,
+    "C": 4,
+    "C++": 12,
+    "Kotlin": 2,
+    "Batch": 1,
+    "TypeScript": 2,
+    "Swift": 1
+  },
+  "projectTypes": [
+    "C/C++ (CMake)",
+    "Java (Gradle)",
+    "JavaScript/Node.js",
+    "Ruby (Bundler)"
+  ],
+  "frameworks": [
+    "React"
+  ],
+  "entryPoints": [],
+  "ciCdTools": [],
+  "packageManagers": [
+    "npm/yarn",
+    "bundler"
+  ],
+  "topLevelDirectories": [
+    {
+      "name": "android",
+      "numFiles": 223,
+      "totalLoc": 6594,
+      "dominantLanguage": "C++"
+    },
+    {
+      "name": "ios",
+      "numFiles": 10,
+      "totalLoc": 49,
+      "dominantLanguage": "Swift"
+    },
+    {
+      "name": "__tests__",
+      "numFiles": 1,
+      "totalLoc": 14,
+      "dominantLanguage": "TypeScript"
+    }
+  ],
+  "detailedDirectories": [
+    {
+      "path": "android",
+      "name": "android",
+      "level": 1,
+      "numFiles": 223,
+      "totalLoc": 6594,
+      "dominantLanguage": "C++",
+      "category": "General",
+      "description": "General module with 223 files (C++)",
+      "subdirectories": [
+        {
+          "path": "android\\app",
+          "name": "app",
+          "level": 2,
+          "numFiles": 240,
+          "totalLoc": 6494,
+          "dominantLanguage": "C++",
+          "category": "Application",
+          "description": "Application module with 240 files (C++)",
+          "subdirectories": [
+            {
+              "path": "android\\app\\src",
+              "name": "src",
+              "level": 3,
+              "numFiles": 18,
+              "totalLoc": 62,
+              "dominantLanguage": "Kotlin",
+              "category": "General",
+              "description": "General module with 18 files (Kotlin)",
+              "subdirectories": []
+            }
+          ]
+        },
+        {
+          "path": "android\\gradle",
+          "name": "gradle",
+          "level": 2,
+          "numFiles": 2,
+          "totalLoc": 0,
+          "category": "General",
+          "description": "General module with 2 files",
+          "subdirectories": [
+            {
+              "path": "android\\gradle\\wrapper",
+              "name": "wrapper",
+              "level": 3,
+              "numFiles": 2,
+              "totalLoc": 0,
+              "category": "Application",
+              "description": "Application module with 2 files",
+              "subdirectories": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "ios",
+      "name": "ios",
+      "level": 1,
+      "numFiles": 10,
+      "totalLoc": 49,
+      "dominantLanguage": "Swift",
+      "category": "General",
+      "description": "General module with 10 files (Swift)",
+      "subdirectories": [
+        {
+          "path": "ios\\PushNotificationApp",
+          "name": "PushNotificationApp",
+          "level": 2,
+          "numFiles": 6,
+          "totalLoc": 49,
+          "dominantLanguage": "Swift",
+          "category": "Application",
+          "description": "Application module with 6 files (Swift)",
+          "subdirectories": [
+            {
+              "path": "ios\\PushNotificationApp\\Images.xcassets",
+              "name": "Images.xcassets",
+              "level": 3,
+              "numFiles": 2,
+              "totalLoc": 0,
+              "category": "General",
+              "description": "General module with 2 files",
+              "subdirectories": []
+            }
+          ]
+        },
+        {
+          "path": "ios\\PushNotificationApp.xcodeproj",
+          "name": "PushNotificationApp.xcodeproj",
+          "level": 2,
+          "numFiles": 2,
+          "totalLoc": 0,
+          "category": "Application",
+          "description": "Application module with 2 files",
+          "subdirectories": [
+            {
+              "path": "ios\\PushNotificationApp.xcodeproj\\xcshareddata",
+              "name": "xcshareddata",
+              "level": 3,
+              "numFiles": 1,
+              "totalLoc": 0,
+              "category": "Data",
+              "description": "Data module with 1 files",
+              "subdirectories": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "__tests__",
+      "name": "__tests__",
+      "level": 1,
+      "numFiles": 1,
+      "totalLoc": 14,
+      "dominantLanguage": "TypeScript",
+      "category": "Testing",
+      "description": "Testing module with 1 files (TypeScript)",
+      "subdirectories": []
+    }
+  ],
+  "architecturalInsights": {
+    "coreApplications": [],
+    "entryPointDetails": [],
+    "serviceArchitecture": {
+      "microservices": [],
+      "monoliths": [],
+      "libraries": []
+    },
+    "layeredArchitecture": {
+      "presentation": [],
+      "business": [],
+      "data": [],
+      "infrastructure": []
+    }
+  },
+  "largeFiles": [
+    {
+      "path": "android\\app\\.cxx\\Debug\\4165z3uy\\arm64-v8a\\CMakeFiles\\appmodules.dir\\OnLoad.cpp.o",
+      "sizeMb": 2.31
+    },
+    {
+      "path": "android\\app\\.cxx\\Debug\\4165z3uy\\x86_64\\CMakeFiles\\appmodules.dir\\OnLoad.cpp.o",
+      "sizeMb": 2.29
+    },
+    {
+      "path": "android\\app\\.cxx\\Debug\\4165z3uy\\armeabi-v7a\\CMakeFiles\\appmodules.dir\\OnLoad.cpp.o",
+      "sizeMb": 1.96
+    },
+    {
+      "path": "android\\app\\.cxx\\Debug\\4165z3uy\\x86\\CMakeFiles\\appmodules.dir\\OnLoad.cpp.o",
+      "sizeMb": 1.86
+    }
+  ],
+  "dependencies": {
+    "production": [
+      "@react-native-firebase/app",
+      "@react-native-firebase/messaging",
+      "@react-native/new-app-screen",
+      "express",
+      "firebase-admin",
+      "react",
+      "react-native",
+      "react-native-safe-area-context"
+    ],
+    "development": [
+      "@babel/core",
+      "@babel/preset-env",
+      "@babel/runtime",
+      "@react-native-community/cli",
+      "@react-native-community/cli-platform-android",
+      "@react-native-community/cli-platform-ios",
+      "@react-native/babel-preset",
+      "@react-native/eslint-config",
+      "@react-native/metro-config",
+      "@react-native/typescript-config",
+      "@types/jest",
+      "@types/react",
+      "@types/react-test-renderer",
+      "eslint",
+      "jest",
+      "prettier",
+      "react-test-renderer",
+      "typescript"
+    ],
+    "total": 26
+  },
+  "complexity": {
+    "averageFileSize": 32.78656126482213,
+    "maxFileSize": 24222.1056,
+    "nestedDepth": 0,
+    "estimatedComplexity": "medium"
+  },
+  "gitRepo": {
+    "firstCommitDate": "2025-09-19",
+    "totalCommits": 1,
+    "numContributors": 0,
+    "currentBranch": "main",
+    "remoteUrls": []
+  }
+}

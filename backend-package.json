@@ -1,0 +1,27 @@
+{
+  "name": "push-notification-service",
+  "version": "1.0.0",
+  "description": "Production notification service with Firebase Admin SDK",
+  "main": "notification-service-production.js",
+  "scripts": {
+    "start": "node notification-service-production.js",
+    "dev": "nodemon notification-service-production.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "firebase-admin": "^12.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [
+    "firebase",
+    "fcm",
+    "push-notifications",
+    "express",
+    "nodejs"
+  ],
+  "author": "Your Name",
+  "license": "ISC"
+}
